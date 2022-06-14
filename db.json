@@ -1,0 +1,97 @@
+{
+  "profile": [
+    {
+      "id": 1,
+      "tittle": "Hi, I am Long, Creative Technologist",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ex officiis libero quae unde id quod, recusandae eos maiores obcaecati doloribus sit a. Nisi dolor, fugiat deleniti quia dignissimos et. Nisi dolor, fugiat deleniti quia dignissimos et. Nisi dolor, fugiat deleniti quia dignissimos et.",
+      "avatar": "https://th.bing.com/th/id/OIP.Tn93FohVwg_esJvPAQqUuQHaEo?w=296&h=184&c=7&r=0&o=5&pid=1.7"
+    }
+  ],
+  "project": [
+    {
+      "id": 1,
+      "name": "Project 1",
+      "category": "Product",
+      "time": "2021",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ex officiis libero quae unde id quod, recusandae eos maiores obcaecati doloribus sit a. Nisi dolor, fugiat deleniti quia dignissimos et. Nisi dolor, fugiat deleniti quia dignissimos et. Nisi dolor, fugiat deleniti quia dignissimos et.",
+      "avatar": "https://i.imgur.com/6FXkW6T.png"
+    },
+    {
+      "id": 2,
+      "name": "Project 2",
+      "category": "Product",
+      "time": "2020",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ex officiis libero quae unde id quod, recusandae eos maiores obcaecati doloribus sit a. Nisi dolor, fugiat deleniti quia dignissimos et. Nisi dolor, fugiat deleniti quia dignissimos et. Nisi dolor, fugiat deleniti quia dignissimos et.",
+      "avatar": "https://i.imgur.com/SexRlQO.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Project 3",
+      "category": "Product",
+      "time": "2019",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ex officiis libero quae unde id quod, recusandae eos maiores obcaecati doloribus sit a. Nisi dolor, fugiat deleniti quia dignissimos et. Nisi dolor, fugiat deleniti quia dignissimos et. Nisi dolor, fugiat deleniti quia dignissimos et.",
+      "avatar": "https://www.bing.com/th?id=OIP.cs_gRXvTJYVWT3OMi4y-7AHaEo&w=170&h=106&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+    },
+    {
+      "id": 4,
+      "name": "Project 4",
+      "category": "Product",
+      "time": "2018",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ex officiis libero quae unde id quod, recusandae eos maiores obcaecati doloribus sit a. Nisi dolor, fugiat deleniti quia dignissimos et. Nisi dolor, fugiat deleniti quia dignissimos et. Nisi dolor, fugiat deleniti quia dignissimos et.",
+      "avatar": "https://www.bing.com/th?id=OIP.03lz9Hc7AZ40ZBM5FBDKFgHaEK&w=156&h=100&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+    },
+    {
+      "id": 5,
+      "name": "Project 5",
+      "category": "Product",
+      "time": "2017",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ex officiis libero quae unde id quod, recusandae eos maiores obcaecati doloribus sit a. Nisi dolor, fugiat deleniti quia dignissimos et. Nisi dolor, fugiat deleniti quia dignissimos et. Nisi dolor, fugiat deleniti quia dignissimos et.",
+      "avatar": "https://www.bing.com/th?id=OIP.eklZ-npqSC3uETJ1GkvDeQHaE8&w=153&h=102&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+    },
+    {
+      "id": 6,
+      "name": "San Pham E",
+      "category": "aaaaaa",
+      "time": 2011,
+      "desc": "ggggggggggggggg",
+      "avatar": "https://i.imgur.com/6FXkW6T.png"
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "name": "Post 01",
+      "time": "12 Feb 2020",
+      "author": "author 1",
+      "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+      "id": 2,
+      "name": "Post 02",
+      "time": "21 May 2021",
+      "author": "author 2",
+      "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+      "id": 3,
+      "name": "Post 03",
+      "time": "18 Feb 2018",
+      "author": "author 3",
+      "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+      "id": 4,
+      "name": "Post 04",
+      "time": "05 Feb 2017",
+      "author": "author 4",
+      "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+      "id": 5,
+      "name": "Post 05",
+      "time": "05 Feb 2016",
+      "author": "author 5",
+      "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    }
+  ]
+}

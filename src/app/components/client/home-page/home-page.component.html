@@ -1,0 +1,53 @@
+<app-banner></app-banner>
+<div class="recent-post">
+    <div class="custom-container">
+        <div class="seciton-header">
+            <h2 class="seciton-header__title">Recent post</h2>
+            <a routerLink="blog">View all</a>
+        </div>
+        <div class="section-body">
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="recent-post__item" *ngFor="let blog of twoBlog">
+                    <h3 class="recent-post__title">
+                        {{blog.name}}
+                    </h3>
+                    <div class="recent-post__meta">
+                        <span>{{blog.time}}</span>
+                        <span>|</span>
+                        <a href="">{{blog.author}}</a>
+                    </div>
+                    <p class="recent-post__desc">
+                        {{blog.desc}}
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="projects">
+    <div class="custom-container">
+        <div class="seciton-header">
+            <h2 class="seciton-header__title">Feature Projects</h2>
+        </div>
+        <div class="section-body" *ngFor="let project of threeProject">
+            <div class="project__item grid md:grid-cols-[246px,auto] gap-4">
+                <a routerLink="/project/{{project.id}}">
+                    <div class="project__img">
+                        <img src={{project.avatar}} alt="" class="project__thumbnail" />
+                    </div>
+                </a>
+                <div class="project__content">
+                    <h3 class="project__name">{{project.name}}</h3>
+                    <div class="project__meta">
+                        <span class="project__createat">{{project.time}}</span>
+                        <a href="" class="project__category">{{project.category}}</a>
+                    </div>
+                    <p>
+                        {{project.desc}}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+<div class="project">
+    <div class="custom-container">
+        <div class="my-7">
+            <h2 class="font-bold text-3xl">Works</h2>
+        </div>
+        <div class="project ">
+            <div class="grid md:grid-cols-1 gap-4  md:pr-[150px]">
+                <div class="section-body" *ngFor="let project of listProject">
+                    <div class="project__item grid md:grid-cols-[246px,auto] gap-4">
+                        <div class="project__img">
+                            <a routerLink="/project/{{project.id}}">
+                                <img src={{project.avatar}} alt="" class="project__thumbnail" />
+                            </a>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__name">{{project.name}}</h3>
+                            <div class="project__meta">
+                                <span class="project__createat">{{project.time}}</span>
+                                <a href="#" class="project__category">{{project.category}}</a>
+                            </div>
+                            <p class="md:pr-[20px]">
+                                {{project.desc}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

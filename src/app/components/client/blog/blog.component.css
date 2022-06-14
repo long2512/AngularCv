@@ -1,0 +1,9 @@
+.blog-item{
+    @apply border-b-2 pb-3
+}
+.blog-item__title {
+    @apply text-[26px] font-bold;
+}
+.blog-item__meta {
+    @apply flex items-center py-5 space-x-4;
+}

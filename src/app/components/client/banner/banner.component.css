@@ -1,0 +1,26 @@
+.banner {
+    @apply py-10 md:py-20;
+}
+.banner-content{
+    @apply order-2 text-center md:order-1 md:col-span-2  md:text-left;
+}
+
+.banner-content__title {
+   @apply text-[44px] leading-[60px] font-bold;
+}
+.banner-content__desc {
+   @apply text-base my-5;
+}
+.banner-picture {
+@apply order-1 md:order-2;
+}
+.banner-picture__thumb {
+    @apply rounded-full w-[243px] h-[243px] mx-auto md:ml-auto md:mr-0;
+}
+
+.btn {
+    @apply inline-block py-5 px-10 text-white rounded;
+}
+.btn-danger {
+     @apply bg-red-500;
+}

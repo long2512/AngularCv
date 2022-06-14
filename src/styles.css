@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+     @apply text-[#21243D];
+}
+
+.custom-container {
+    @apply max-w-5xl mx-auto px-5;
+}
+
